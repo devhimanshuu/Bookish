@@ -22,36 +22,6 @@ This project is a simple book store application built using the MERN stack, whic
 ## Installation
 
 1. Clone the repository:
-
-Sure, here's a basic README.md file for your MERN-based book store project:
-
-markdown
-Copy code
-# MERN Book Store Project
-
-This project is a simple book store application built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. It allows users to perform CRUD (Create, Read, Update, Delete) operations on books and implements a basic authentication system.
-
-## Features
-
-- User authentication: Register, login, and logout functionality.
-- CRUD operations on books: Create, read, update, and delete books.
-- Responsive user interface built with React.js.
-- RESTful API endpoints built with Node.js and Express.js.
-- MongoDB for data storage.
-
-## Technologies Used
-
-- MongoDB: A NoSQL database used for storing book data.
-- Express.js: A web application framework for Node.js used for building RESTful APIs.
-- React.js: A JavaScript library for building user interfaces.
-- Node.js: A JavaScript runtime environment used for server-side development.
-- Axios: A promise-based HTTP client for making API requests from the client-side.
-- JWT (JSON Web Tokens): Used for implementing user authentication.
-- bcrypt.js: A library used for hashing passwords.
-
-## Installation
-
-1. Clone the repository:
    ```bash
    git clone https://github.com/devhimanshuu/Bookish.git
    
