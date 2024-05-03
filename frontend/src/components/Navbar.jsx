@@ -33,7 +33,7 @@ const Navbar = () => {
       <nav
         className={`py-4 lg:px-24 px-4 ${
           isSticky
-            ? "sticky top-0 left-0 right-0 bg-blue-300 bg-blur bg-opacity-100  backdrop-filter backdrop-blur-lg"
+            ? "sticky top-0 left-0 right-0 bg-blue-200 bg-blur bg-opacity-100  backdrop-filter backdrop-blur-lg"
             : ""
         }`}
       >
