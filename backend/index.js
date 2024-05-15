@@ -72,6 +72,14 @@ async function run() {
       res.send(results);
     });
 
+    //to get single book data
+    app.get("/books/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const results = await bookCollections.findOne(filter);
+      res.send(results);
+    });
+
     //Delete a book data
     app.delete("/book/:id", async (req, res) => {
       const id = req.params.id;
