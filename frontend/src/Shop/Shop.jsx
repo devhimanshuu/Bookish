@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-key */
 import { data } from "autoprefixer";
 import React, { useEffect, useState } from "react";
 import { Card } from "flowbite-react";
@@ -14,7 +13,7 @@ const Shop = () => {
       <h2 className="text-5xl font-bold text-center">All Books are here!</h2>
       <div className="grid  gap-8 my-12 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 ">
         {books.map((book) => (
-          <Card>
+          <Card key={book._id}>
             <img src={book.imageUrl} alt="" className="h-96" />
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>{book.bookTitle}</p>
